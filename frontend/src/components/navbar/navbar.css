@@ -1,0 +1,21 @@
+.nav-background{
+    background-color: black;
+}
+
+.navbar-txt{
+    font-family: ProximaNova-Semibold;
+    color: white;
+    font-size: 18px;
+    padding: 0.5rem;
+}
+
+.nav-contain{
+    width: 200px;
+}
+
+@media (max-width: 480px) {
+    .ml{
+        margin-left: 5px;
+    }
+    
+}

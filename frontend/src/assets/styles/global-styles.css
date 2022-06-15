@@ -1,0 +1,23 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("../imgs/wallpaper.jpg");
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: ProximaNova-Bold;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 70px;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+a:hover {
+    color: rgb(255,209,98);
+}
+.content-center{
+    text-align: -webkit-center;
+}
