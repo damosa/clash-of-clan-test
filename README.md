@@ -19,14 +19,22 @@ Backend (Proxy CORS):
 
 Clone this repository
 
-Execute into Backend folder:
+Go to the backend folder and change the value of the key COC_API_TOKEN in the file .env with your developer key-token of COC. https://developer.clashofclans.com/#/login
+
+Then execute into Backend folder:
 ```
 npm install
 npm start
 ```
-Backend port localhost:4000
-Api endpoint example to filter clans: http://localhost:4000/api/clans?name=Kingsguard&warFrequency=always&minClanLevel=9
+Backend port localhost:4000.
+
+You can filter by each of the following filters: name, warFrequency and minClanLevel or by all.
+Api endpoint example by filter clans:
+- http://localhost:4000/api/clans?name=Kingsguard&warFrequency=always&minClanLevel=9
+- http://localhost:4000/api/clans?name=Kingsguard&warFrequency=always
+- http://localhost:4000/api/clans?name=Kingsguard
 filter params: name, warFrequency and minClanLevel.
+
 
 Execute into Frontend folder:
 ```

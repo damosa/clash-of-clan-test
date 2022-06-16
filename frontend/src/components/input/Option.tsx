@@ -6,7 +6,7 @@ interface IProps {
     value?: string;
 }
 
-export const DropdownItem = ({text, selected, value} : IProps) => {
+export const Option = ({text, selected, value} : IProps) => {
   return (
         <option className={classNames("dropdown-item", {selected: selected})} value={value}>{text}</option>
   )
